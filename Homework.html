@@ -4,23 +4,47 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
+	<style type="text/css">
+		label{font-family: monospace; color: purple;}
+		span{
+			color: blueviolet;
+			border: 1px solid block;
+		}
+		.extra span{
+			color: inherit;
+		}
+		h4{color: red;}
+		h3{text-decoration: underline;}
+	.class{
+		color:indigo;
+	}
+	.pattern{
+		background: lightgray;
+	}
+	#topic{
+		background: teal;
+	}
+	p{font-family: cursive;}
+	em {font-weight: bolder;}
+</style>
+
 </head>
 <body>
 		<form>
 		<table border= "1" style="width:50%;">
 			<tr>
-				<th colspan="3">About-110306035</th>
+				<th colspan="3"><h4>About-110306035</h4></th>
 			</tr>
 			<tr>
 				<td rowspan="3">
 					<img src="flash.jpg" width="90" height="80"
 						 alt="not exist"><br>personal photo
 				</td>
-				<td colspan="2"><label>Name:
+				<td colspan="2"><label class="class">Name:
 				<input name="name" type="text" size="25" maxlength="30">
 					
 			</label> <br>
-			<label>Gender:
+			<label><h3>Gender:</h3>
 				<input type="radio" name=Gender>Male
 				<input type="radio" name=Gender>Female
 				<input type="radio" name=Gender>Other
